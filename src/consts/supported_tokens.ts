@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy, sepolia } from "./chains";
+import { avalancheFuji, polygon, sepolia } from "./chains";
 
 export type Token = {
   tokenAddress: string;
@@ -39,10 +39,10 @@ export const SUPPORTED_TOKENS: SupportedTokens[] = [
   },
 
   {
-    chain: polygonAmoy,
+    chain: polygon,
     tokens: [
       {
-        tokenAddress: "0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582",
+        tokenAddress: "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
         symbol: "USDC",
         icon: "/erc20-icons/usdc.png",
       },
